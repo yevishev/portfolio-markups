@@ -6,7 +6,8 @@ header {
     width: 100%;
     height: 45px;
     background: rgba(0,0,0,0.8);
-
+    backdrop-filter: blur(10px);
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +33,7 @@ main {
 .section-ribbon {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     font-size: 14px;
 
@@ -88,4 +89,17 @@ footer {
     height: 600px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.block {
+    background-color: burlywood;
+    width: 1000px;
+    display: block;
+}
+.inline {
+    display: inline;
+}
+.float {
+    float: right;
+    background-color: blueviolet;
+    width: 500px;
 }
